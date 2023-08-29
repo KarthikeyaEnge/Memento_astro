@@ -23,7 +23,7 @@ const data = {
       course_link: "https://www.coursera.org/learn/principles-of-ux-ui-design",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/HBJKQZPUEJSH",
-      skills: ["Web Design", "Front-End Development", "UI/UX","Accessibility"],
+      skills: ["Web Design", "Front-End Development", "UI/UX", "Accessibility"],
     },
     {
       name: "MongoDB Node.js Developer Path",
@@ -52,7 +52,7 @@ const data = {
       name: "Build and Secure Networks in Google Cloud",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
       course_img:
-        "https://scontent.fbpm1-2.fna.fbcdn.net/v/t39.30808-6/352531155_596019286008736_4404962734708194685_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=logoVnqxOtgAX923yc3&_nc_ht=scontent.fbpm1-2.fna&oh=00_AfCtMBV9i0icVWRRQRZTZcDDPq6mKFMvVWN14h7GZ-3qOQ&oe=64EE39DF",
+        "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
       id: "2021",
       desc: "Learn Building and Securing Networks in Google Cloud",
@@ -65,7 +65,7 @@ const data = {
       name: "Create and Manage Cloud Resources",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
       course_img:
-        "https://scontent.fbpm1-2.fna.fbcdn.net/v/t39.30808-6/352531155_596019286008736_4404962734708194685_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=logoVnqxOtgAX923yc3&_nc_ht=scontent.fbpm1-2.fna&oh=00_AfCtMBV9i0icVWRRQRZTZcDDPq6mKFMvVWN14h7GZ-3qOQ&oe=64EE39DF",
+        "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
       id: "2021",
       desc: "Learn creating and Managing Cloud Resources in GCP",
@@ -78,7 +78,7 @@ const data = {
       name: "Deploy and Manage Cloud Environments with Google Cloud",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
       course_img:
-        "https://scontent.fbpm1-2.fna.fbcdn.net/v/t39.30808-6/352531155_596019286008736_4404962734708194685_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=logoVnqxOtgAX923yc3&_nc_ht=scontent.fbpm1-2.fna&oh=00_AfCtMBV9i0icVWRRQRZTZcDDPq6mKFMvVWN14h7GZ-3qOQ&oe=64EE39DF",
+        "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
       id: "2021",
       desc: "Learn deploying and managing Cloud Environments with Google Cloud",
@@ -91,7 +91,7 @@ const data = {
       name: "Deploy to Kubernetes in Google Cloud",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
       course_img:
-        "https://scontent.fbpm1-2.fna.fbcdn.net/v/t39.30808-6/352531155_596019286008736_4404962734708194685_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=logoVnqxOtgAX923yc3&_nc_ht=scontent.fbpm1-2.fna&oh=00_AfCtMBV9i0icVWRRQRZTZcDDPq6mKFMvVWN14h7GZ-3qOQ&oe=64EE39DF",
+        "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
       id: "2021",
       desc: "Learn how deploy to Kubernetes in Google Cloud ",
@@ -104,7 +104,7 @@ const data = {
       name: "Perform Foundational Infrastructure Tasks in Google Cloud",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
       course_img:
-        "https://scontent.fbpm1-2.fna.fbcdn.net/v/t39.30808-6/352531155_596019286008736_4404962734708194685_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=logoVnqxOtgAX923yc3&_nc_ht=scontent.fbpm1-2.fna&oh=00_AfCtMBV9i0icVWRRQRZTZcDDPq6mKFMvVWN14h7GZ-3qOQ&oe=64EE39DF",
+        "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
       id: "2021",
       desc: "Learn how to do perform Foundational Infrastructure Tasks in Google Cloud",
@@ -117,7 +117,7 @@ const data = {
       name: "Set Up and Configure a Cloud Environment in Google Cloud",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
       course_img:
-        "https://scontent.fbpm1-2.fna.fbcdn.net/v/t39.30808-6/352531155_596019286008736_4404962734708194685_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=logoVnqxOtgAX923yc3&_nc_ht=scontent.fbpm1-2.fna&oh=00_AfCtMBV9i0icVWRRQRZTZcDDPq6mKFMvVWN14h7GZ-3qOQ&oe=64EE39DF",
+        "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
       id: "2021",
       desc: "Learn how to set Up and Configure a Cloud Environment in Google Cloud",
