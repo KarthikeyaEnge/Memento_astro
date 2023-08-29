@@ -1,0 +1,30 @@
+---
+import { FaLongArrowAltUp } from "react-icons/fa";
+import { SiAstro } from "react-icons/si";
+import Link from "./Link.astro";
+---
+
+<footer class="my-32 flex flex-col">
+  <h1
+    class="font-inter text-slate-400 lg:text-lg text-xs flex flex-row flex-wrap gap-1"
+  >
+    Design inspired by{" "}
+    <Link name={"Brittany Chiang"} href={"https://brittanychiang.com/"} /> , Coded
+    in{" "}
+    <Link name={"Visual Studio Code"} href={"https://code.visualstudio.com"} />.
+    Built by{"  "}
+    <span class="flex flex-row flex-wrap items-center"
+      ><Link name={"Astrojs"} , href={"https://astro.build/"} /><SiAstro
+      /></span
+    > and{" "}
+    <Link name={"ReactJS"} , href={"https://react.dev/"} />, Styled by{" "}
+    <Link name={"Tailwind CSS"} , href={"https://tailwindcss.com/"} /> and{" "}
+    <Link name={"DaisyUI"} , href={"https://daisyui.com/"} />
+  </h1>
+
+  <a href="#about" class="p-3 self-end">
+    <FaLongArrowAltUp
+      className="text-xl hover:scale-y-150 hover:text-sky-400 transition-all"
+    />
+  </a>
+</footer>

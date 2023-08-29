@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Sora:wght@300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.font-inter {
+    font-family: 'inter';
+}
+
+.font-sora-600 {
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+}
+
+.font-sora-700 {
+    font-family: 'sora', sans-serif;
+    font-weight: 700;
+}
+
+.font-sora-300 {
+    font-family: 'sora', sans-serif;
+    font-weight: 300;
+}
+
+.font-sora-400 {
+    font-family: 'sora', sans-serif;
+    font-weight: 400;
+}
+
+.font-sora-500 {
+    font-family: 'sora', sans-serif;
+    font-weight: 500;
+}
+
+.font-inter {
+    font-family: 'inter', sans-serif;
+}
+
+.font-krona {
+    font-family: 'krona one';
+}
+
+.back {
+    background-image: url('/images/sa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hback {
+    background-image: url('/images/hbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.active-scroll-spy {
+    transform: scale(1.5);
+    color: rgba(7, 193, 210, 0.737);
+}
+
+.card {
+    color: white;
+}
+
+.scroll_bar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scroll_bar::-webkit-scrollbar-track {
+    background: rgb(15, 23, 42);
+}
+
+.scroll_bar::-webkit-scrollbar-thumb {
+    background-color: rgba(7, 193, 210, 0.737);
+    border-radius: 5rem;
+}

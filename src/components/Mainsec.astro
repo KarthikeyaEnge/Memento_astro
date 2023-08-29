@@ -1,0 +1,175 @@
+---
+import { FaFile } from "react-icons/fa6";
+import Course from "../components/Course.astro";
+
+import Projectsec from "../components/Projectsec.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<section
+  class="flex-shrink-0 h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2 p-7 lg:pt-14"
+>
+  {" "}
+  <section id="about">
+    <h2
+      class="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10 backdrop-blur-md p-2 rounded-lg"
+    >
+      ABOUT
+    </h2>
+    <p class="font-sora-500 text-slate-300 text-lg">
+      I took Computer Science as my undergrad course, thinking I could build
+      something useful that people could use to resolve their issues. I took{
+        " "
+      }
+      <a href="https://cs50.harvard.edu/x/2023/" class="text-sky-500"> CS50</a>
+      , which inspired me to learn more about coding, and that's how I started my
+      web development journey. Fast-forward to today: I've built an attendance manager
+      for my college, several other web apps and am looking forward to building more.
+    </p>{" "}
+    <br />
+    <p class="font-sora-500 text-slate-300 text-lg">
+      {" "}
+      My Focus is on building creative web apps that can solve common issues and
+      help Learners, tutors, etc. to do more. In my free time, I mostly create my
+      own fun web apps to learn and help my friends learn.
+    </p>{" "}
+    <br />
+    <p class="font-sora-500 text-slate-300 text-lg">
+      {" "}
+      When I'm not on the computer, I mostly love to spend my time with my Family
+      and Friends.
+    </p>
+  </section>
+  {/* passion section */}
+  <section id="passion" class="mt-20">
+    <h2 class="font-sora-600 text-slate-100 my-2 lg:block hidden">PASSION</h2>
+    <h2
+      class="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10 backdrop-blur-md p-2 rounded-lg z-20"
+    >
+      PASSION
+    </h2>
+    <section
+      class="w-full flex flex-row flex-wrap items-center justify-center h-fit gap-2 text-slate-100"
+    >
+      <article
+        class="card card-compact w-64 bg-white h-96 w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm border border-none shadow-lg shadow-black flex-shrink-0 bg-opacity-5"
+      >
+        <figure class="h-40">
+          <img
+            src={"https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/code.png"}
+            alt="code"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Development</h2>
+          <p class="text-md">
+            {" "}
+            with a love for web design and development and a strong CS foundation.
+            I'm Passionate about building various creative web applications. As I'm
+            improving as a web developer. I would like to develop apps that are clean,
+            easily readable, and understandable
+          </p>
+        </div>
+      </article>
+      <article
+        class="card card-compact w-64 bg-white h-96 w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm border border-none shadow-lg shadow-black flex-shrink-0 bg-opacity-5"
+      >
+        <figure class="h-40">
+          <img
+            src={"https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/ai.png"}
+            alt="ai"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Artificial Intelligence</h2>
+          <p class="text-md">
+            {" "}
+            I am always curious to know about the early advancements of AI in various
+            fields. I took AI as my minor in undergrad so that I could understand
+            and implement it in various use cases.
+          </p>
+        </div>
+      </article>
+      <article
+        class="card card-compact w-64 bg-white h-96 w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm border border-none shadow-lg shadow-black flex-shrink-0 bg-opacity-5"
+      >
+        <figure class="h-40">
+          <img
+            src={"https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/phy.png"}
+            alt="code"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Physics</h2>
+          <p class="text-md">
+            {" "}
+            I have been a Fan of the Special Theory OF Relativity and Quantum Physics
+            since I was a kid. I would love to know about the various paradoxes and
+            theories that our world runs on. I believe Quantum computing will change
+            the world.
+          </p>
+        </div>
+      </article>
+    </section>
+  </section>
+  {/**skills section */}
+  <section id="skills" class="mt-20">
+    <section class="flex flex-row flex-wrap gap-2 items-center justify-center">
+      <article
+        class="card card-compact w-64 bg-white w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-5 border border-none shadow-lg shadow-black flex-shrink-0 h-56"
+      >
+        <div class="card-body">
+          <h2 class="card-title self-center text-slate-100">
+            {" "}
+            Achievements
+          </h2>
+        </div>
+        <a
+          href="https://www.credly.com/badges/24357bcf-9130-4f62-a0e2-c7c6595912ae/public_url"
+          target="_blank"
+        >
+          <figure>
+            {" "}
+            <img
+              src={"https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/mdb.png"}
+              alt="mdb"
+            />
+          </figure>
+        </a>
+      </article>
+
+      <article
+        class="flex flex-col gap-2 items-center w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-white bg-opacity-5 border border-none shadow-lg shadow-black p-5 rounded-xl h-56 cursor-pointer"
+      >
+        <h2 class="font-sora-600 text-slate-100 text-xl">
+          Technologies I'v worked
+        </h2>
+        <img
+          src="https://skillicons.dev/icons?i=c,java,py,html,css,js,git"
+          alt="skills-1"
+        />
+
+        <img
+          src="https://skillicons.dev/icons?i=github,eclipse,md,vscode,react,tailwind,vite"
+          alt="skills-1"
+        />
+
+        <img
+          src="https://skillicons.dev/icons?i=django,nodejs,mongodb,express,firebase,figma,astro"
+          alt="skills-1"
+        />
+      </article>
+      <a
+        href={import.meta.env.SECRET_RESUME_URL}
+        class="text-xl font-inter mt-2 flex flex-row flex-nowrap items-center transition-all hover:text-sky-500 py-2 px-4 border border-sky-500 bg-sky-400 bg-opacity-10 text-white rounded-3xl shadow-sm shadow-black gap-4"
+        target="_blank"
+      >
+        <FaFile /> My Resume
+      </a>
+    </section>
+  </section>
+  {/**projects section */}
+  <Projectsec />
+  <Course />
+  <Footer />
+</section>
