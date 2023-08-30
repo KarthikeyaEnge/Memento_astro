@@ -10,12 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "^0.17.3",
-    "@astrojs/react": "^2.3.2",
-    "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/react": "^3.0.0",
+    "@astrojs/tailwind": "^5.0.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
-    "astro": "^3.0.0",
+    "astro": "^3.0.2",
     "daisyui": "^3.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
