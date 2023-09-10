@@ -1,17 +1,19 @@
 const data = {
   courses: [
     {
-      name: "Foundations of Git ",
-      img: "https://media.licdn.com/dms/image/D560BAQH7kMFduqTX1Q/company-logo_200_200/0/1691785849994?e=1701302400&v=beta&t=nVLqL4Is-cb5TqfrzKCa46iCA9iHcLaKgyKMUVhBgEk",
+      name: "Apollo Graph Developer - Associate ",
+      img: "https://media.licdn.com/dms/image/C560BAQFQY9ETMnWBGQ/company-logo_200_200/0/1646068661294?e=1702512000&v=beta&t=iFEu-ILk4Km5dNgWM8eWZikt6RIDZI_FCZuE3LU3rlk",
       course_img:
-        "https://media.licdn.com/dms/image/D5622AQFrEPgoyc_ffw/feedshare-shrink_1280/0/1692960574953?e=1695859200&v=beta&t=-N9YLZhobFz9RqnLU1z-AQrTAOvWm9SKjiz2Hh0Df74",
-      iby: "GitKraken",
+        "https://raw.githubusercontent.com/KarthikeyaEnge/KarthikeyaEnge/main/graphql.png",
+      iby: "Apollo GraphQL",
       id: "2023",
-      credentials: "https://learn.gitkraken.com/certificates/y7wvgzpw5s",
-      desc: "Eleveate your Git knowledge through various video classes and examples you learn various git features(i.e squash,stash,cherry pick, worktrees etc.) and tools like Gitkraken client",
-      course_link: "https://learn.gitkraken.com/courses/git-foundations",
-      skills: ["Git"],
+      credentials:
+        "https://www.apollographql.com/tutorials/certifications/9ddd9eb4-6938-4e32-ab1e-50beaebad872",
+      desc: "Get to know various advantages of GraphQL and how can it be helpful for various developer working on multiple datasources, data caching, mutations etc. Learn the amazing Apollo client and server tools to manage your app with GraphQL.",
+      course_link: "https://www.apollographql.com/tutorials/",
+      skills: ["GraphQL", "Apollo GraphQL", "RestAPIs"],
     },
+
     {
       name: "Principals of UX/UI Design",
       img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138753911?e=1700697600&v=beta&t=tdubJehhjtCbzaICaUOIqOe2sbECND7m6raJg8DBVuM",
@@ -47,7 +49,18 @@ const data = {
         "MongoDB Atlas",
       ],
     },
-
+    {
+      name: "Foundations of Git ",
+      img: "https://media.licdn.com/dms/image/D560BAQH7kMFduqTX1Q/company-logo_200_200/0/1691785849994?e=1701302400&v=beta&t=nVLqL4Is-cb5TqfrzKCa46iCA9iHcLaKgyKMUVhBgEk",
+      course_img:
+        "https://media.licdn.com/dms/image/D5622AQFrEPgoyc_ffw/feedshare-shrink_1280/0/1692960574953?e=1695859200&v=beta&t=-N9YLZhobFz9RqnLU1z-AQrTAOvWm9SKjiz2Hh0Df74",
+      iby: "GitKraken",
+      id: "2023",
+      credentials: "https://learn.gitkraken.com/certificates/y7wvgzpw5s",
+      desc: "Eleveate your Git knowledge through various video classes and examples you learn various git features(i.e squash,stash,cherry pick, worktrees etc.) and tools like Gitkraken client",
+      course_link: "https://learn.gitkraken.com/courses/git-foundations",
+      skills: ["Git"],
+    },
     {
       name: "Build and Secure Networks in Google Cloud",
       img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
