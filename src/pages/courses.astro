@@ -57,7 +57,7 @@ import MainLayout from "../layouts/MainLayout.astro";
                     <FaUpRightFromSquare className="text-sm text-slate-400" />
                   </button>
 
-                  <dialog id={`model_${i}`} class="modal scroll_bar">
+                  <dialog id={`model_${i}`} class="modal ">
                     <form
                       method="dialog"
                       class="modal-box  bg-[#8eebf336] backdrop-blur-lg bg-opacity-70"
@@ -70,8 +70,8 @@ import MainLayout from "../layouts/MainLayout.astro";
                         />
                       </figure>
 
-                      <section class="card-body font-sora-500 text-slate-300">
-                        <h1 class="card-title">{e?.name}</h1>
+                      <section class="card-body font-poppins-400 text-slate-300">
+                        <h1 class="card-title font-sora-500">{e?.name}</h1>
                         <h3 class="card-tite text-cyan-300">Description</h3>
                         <p class="prose">{e?.desc}</p>
                         <h2 class="text-cyan-300">Issued by:{e?.iby}</h2>
