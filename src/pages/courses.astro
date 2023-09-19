@@ -22,10 +22,10 @@ import MainLayout from "../layouts/MainLayout.astro";
 
       <h1 class="text-cyan-500 font-krona text-center text-3xl">COURSE WORK</h1>
     </nav>
-
+    <section class="lg:p-10">
     <table class="table">
       <thead
-        class="lg:text-xl text-md text-slate-300 top-0 sticky bg-slate-900 bg-opacity-5 backdrop-blur-md p-1"
+        class="lg:text-xl text-md text-slate-300 top-0 sticky bg-slate-900 bg-opacity-5 backdrop-blur-md p-2 mb-1 lg:rounded-lg"
       >
         <th>Issued By</th>
         <th class="lg:block hidden">Year</th>
@@ -57,7 +57,7 @@ import MainLayout from "../layouts/MainLayout.astro";
                     <FaUpRightFromSquare className="text-sm text-slate-400" />
                   </button>
 
-                  <dialog id={`model_${i}`} class="modal ">
+                  <dialog id={`model_${i}`} class="modal">
                     <form
                       method="dialog"
                       class="modal-box  bg-[#8eebf336] backdrop-blur-lg bg-opacity-70"
@@ -71,7 +71,8 @@ import MainLayout from "../layouts/MainLayout.astro";
                       </figure>
 
                       <section class="card-body font-poppins-400 text-slate-300">
-                        <h1 class="card-title font-sora-500">{e?.name}</h1>
+                        <h1 class="card-title font-sora-500 text-3xl">{e?.name}</h1>
+                        <div class="divider"></div>
                         <h3 class="card-tite text-cyan-300">Description</h3>
                         <p class="prose text-slate-300">{e?.desc}</p>
                         <h2 class="text-cyan-300">Issued by:{e?.iby}</h2>
@@ -81,7 +82,7 @@ import MainLayout from "../layouts/MainLayout.astro";
                           <h2>skills</h2>
                           {e.skills.map((ele, i) => {
                             return (
-                              <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 m-1 w-fit h-auto">
+                              <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 py-1 m-1 w-fit h-auto px-2">
                                 <h4>{ele}</h4>
                               </li>
                             );
@@ -125,7 +126,7 @@ import MainLayout from "../layouts/MainLayout.astro";
                   <ul class="flex flow-row flex-wrap">
                     {e.skills.map((ele, i) => {
                       return (
-                        <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 m-1 w-fit h-auto">
+                        <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 py-1 m-1 w-fit h-auto px-2">
                           <h4>{ele}</h4>
                         </li>
                       );
@@ -138,6 +139,7 @@ import MainLayout from "../layouts/MainLayout.astro";
         }
       </tbody>
     </table>
+  </section>
     <a href="#top" class="p-3 mr-4 self-end">
       <FaArrowUpLong
         className="text-xl hover:scale-y-150 hover:text-cyan-400 transition-all"

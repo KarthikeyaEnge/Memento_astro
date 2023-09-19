@@ -28,7 +28,7 @@ const projects = {
       stack: ["ReactJS", "ViteJS", "TailwindCSS", "DaisyUI", "Chartjs"],
     },
     {
-      name: " ATTENDANCE_MANAGER",
+      name: " ATTENDANCE MANAGER",
       img: "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/am.png",
       id: "2023",
       gitr: "https://github.com/KarthikeyaEnge/Attendance_mng",

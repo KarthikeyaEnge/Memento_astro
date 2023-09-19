@@ -24,24 +24,25 @@ import MainLayout from "../layouts/MainLayout.astro";
       <h1 class="text-cyan-500 font-krona text-center text-3xl">My Projects</h1>
     </nav>
 
+    <section class="lg:p-10">
     <table class="table">
       <thead
         class="lg:text-xl text-md text-slate-300 top-0 sticky bg-slate-900 bg-opacity-5 backdrop-blur-md p-1"
       >
         <th>Name</th>
         <th>Year</th>
-        <th class="flex justify-center items-center gap-1"><FaGithub/>Repo</th>
-        <th class="lg:block hidden">Link</th>
-        <th class="lg:block hidden">Tech Stack</th>
+        <th >Repo</th>
+        <th class="lg:table-cell hidden">Build With</th>
+        <th class="lg:table-cell hidden">Link</th>
       </thead>
       <tbody>
         {
           projects.data.map((e, i) => {
             return (
-              <tr class="hover:bg-[#17eaea2a]">
+              <tr class="hover:bg-[#17eaea2a] p-5">
                 <td>
                   <button
-                    class="font-sora-500 lg:text-sm text-xs text-cyan-500 flex gap-2 items-center flex-shrink-0"
+                    class="font-sora-500 lg:text-sm text-xs text-cyan-500 flex gap-2 items-center flex-shrink-0 "
                     onclick={`window.model_${i}.showModal()`}
                   >
                     {e?.name}{" "}
@@ -62,7 +63,8 @@ import MainLayout from "../layouts/MainLayout.astro";
                       </figure>
 
                       <section class="card-body font-poppins-400 text-slate-300">
-                        <h1 class="card-title font-sora-500">{e?.name}</h1>
+                        <h1 class="card-title font-sora-500 text-3xl">{e?.name}</h1>
+                        <div class="divider"></div>
                         <h3 class="card-tite text-cyan-300">Description</h3>
                         <p class="prose text-slate-300">{e?.desc}</p>
                         <h2 class="text-cyan-300">Completed Year:{e?.id}</h2>
@@ -71,7 +73,7 @@ import MainLayout from "../layouts/MainLayout.astro";
                           <h2>Tech Stack</h2>
                           {e.stack.map((ele, i) => {
                             return (
-                              <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 m-1 w-fit h-auto">
+                              <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 py-1 m-1 w-fit h-auto px-2">
                                 <h4>{ele}</h4>
                               </li>
                             );
@@ -115,7 +117,18 @@ import MainLayout from "../layouts/MainLayout.astro";
                         </a>
                     </td>
 
-                <td class="lg:block hidden">
+                <td class="lg:table-cell hidden">
+                  <ul class="flex flow-row flex-wrap">
+                    {e.stack.map((ele, i) => {
+                      return (
+                        <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 py-1 m-1 w-fit h-auto felx-wrap px-2">
+                          <h4>{ele}</h4>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </td>
+                <td class="lg:table-cell hidden">
                     <a
                           href={e?.pro_link}
                           class="flex justify-normal gap-1 items-center hover:text-cyan-400  transition-all "
@@ -123,28 +136,17 @@ import MainLayout from "../layouts/MainLayout.astro";
                           <FaLink/> Website Link 
                         </a>
                 </td>
-
-                <td class="lg:block hidden">
-                  <ul class="flex flow-row flex-wrap">
-                    {e.stack.map((ele, i) => {
-                      return (
-                        <li class="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 m-1 w-fit h-auto">
-                          <h4>{ele}</h4>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </td>
               </tr>
             );
           })
         }
       </tbody>
     </table>
-    <a href="#top" class="p-3 mr-4 self-end">
+  </section>
+    <!-- <a href="#top" class="p-3 mr-4 self-end">
       <FaArrowUpLong
         className="text-xl hover:scale-y-150 hover:text-cyan-400 transition-all"
       />
-    </a>
+    </a> -->
   </main>
 </MainLayout>
