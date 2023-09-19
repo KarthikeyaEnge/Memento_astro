@@ -29,9 +29,9 @@ import MainLayout from "../layouts/MainLayout.astro";
         class="lg:text-xl text-md text-slate-300 top-0 sticky bg-slate-900 bg-opacity-5 backdrop-blur-md p-1"
       >
         <th>Name</th>
-        <th class="lg:block hidden">Year</th>
-        <th>Githbu Repo</th>
-        <th>Website Link</th>
+        <th>Year</th>
+        <th class="flex justify-center items-center gap-1"><FaGithub/>Repo</th>
+        <th class="lg:block hidden">Link</th>
         <th class="lg:block hidden">Tech Stack</th>
       </thead>
       <tbody>
@@ -102,7 +102,7 @@ import MainLayout from "../layouts/MainLayout.astro";
                   </dialog>
                 </td>
 
-                <td class="lg:block hidden">
+                <td>
                   <h1 class="font-krona text-cyan-500">{e.id}</h1>
                 </td>
 
@@ -112,17 +112,16 @@ import MainLayout from "../layouts/MainLayout.astro";
                           target="_blank"
                           class="badge ring-0 border-none outline-none hover:text-sky-300"
                           >
-                           <FaGithub className="m-1" /> Github repo
+                           <FaGithub className="m-1" /> 
                         </a>
                     </td>
 
-                <td>
+                <td class="lg:block hidden">
                     <a
                           href={e?.pro_link}
                           class="flex justify-normal gap-1 items-center hover:text-cyan-400  transition-all "
                         >
-                          <FaLink />
-                          Project Website
+                          <FaLink/> Website Link 
                         </a>
                 </td>
 
