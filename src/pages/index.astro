@@ -1,11 +1,12 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import {
-  FaPaperPlane,
   FaInstagram,
   FaLinkedin,
   FaGithub,
   FaEnvelope,
+  FaRocket,
+  FaHashnode
 } from "react-icons/fa6";
 
 import bubble from "../assets/bubble.png";
@@ -30,9 +31,16 @@ import { Image } from "astro:assets";
 
     <a href="/Home" class="z-10 flex flex-row justify-center items-center">
       <button
-        class="font-krona lg:text-2xl text-xl py-2 px-3 bg-[#2dd7ce47] text-[#13dbd1d1] rounded-full ring-0 outline-none animate-bounce lg:mt-10 mt-3 hover:animate-none hover:shadow-2xl hover:shadow-[#61c7c285] z-10 flex justify-center items-center gap-2"
+        class="font-krona lg:text-2xl text-xl py-2 px-3 bg-[#2dd7ce47] text-[#13dbd1d1] rounded-full ring-0 outline-none lg:mt-10 mt-3 hover:animate-none hover:shadow-2xl hover:shadow-[#61c7c285] z-10 flex justify-center items-center gap-2"
       >
-        Wanna Know me <FaPaperPlane className="text-[#13dbd1d1] text-2xl" />
+      <FaRocket className="text-[#13dbd1d1] text-2xl" /> Portfolio 
+      </button>
+    </a>
+    <a href="https://karthikeyaenge.hashnode.dev" class="z-10 flex flex-row justify-center items-center lg:-mt-5" target="_blank">
+      <button
+        class="font-krona lg:text-2xl text-xl py-2 px-3 bg-[#2dd7ce47] text-[#13dbd1d1] rounded-full ring-0 outline-none lg:mt-10 mt-3 hover:animate-none hover:shadow-2xl hover:shadow-[#61c7c285] z-10 flex justify-center items-center gap-2"
+      >
+      <FaHashnode className="text-[#13dbd1d1] text-2xl" /> Blog
       </button>
     </a>
 
@@ -42,52 +50,52 @@ import { Image } from "astro:assets";
       <li class="relative group">
         <label
         for="play"
-        class="absolute hidden group-hover:block text-xs -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-9 px-4 py-2"
+        class="absolute hidden group-hover:block text-md -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-11 px-4 py-2"
       >
         Instagram
       </label>
         <a href={import.meta.env.SECRET_INSTAGRAM_URL} target="_blank">
           <FaInstagram
-            className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer"
+            className="lg:text-4xl text-3xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer"
           />
         </a>
       </li>
       <li class="relative group">
         <label
         for="play"
-        class="absolute hidden group-hover:block text-xs -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-9 px-4 py-2"
+        class="absolute hidden group-hover:block text-md -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-11 px-4 py-2"
       >
         Linkedin
       </label>
         <a href={import.meta.env.SECRET_LINKEDIN_URL} target="_blank">
           <FaLinkedin
-            className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579] hover:cursor-pointer"
+            className="lg:text-4xl text-3xl hover:text-[#0ff0e59c] text-[#0ff0e579] hover:cursor-pointer"
           />
         </a>
       </li>
       <li class="relative group">
         <label
         for="play"
-        class="absolute hidden group-hover:block text-xs -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-9 px-4 py-2"
+        class="absolute hidden group-hover:block text-md -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-11 px-4 py-2"
       >
         Github
       </label>
         <a href={import.meta.env.SECRET_GITHUB_URL} target="_blank">
           <FaGithub
-            className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579] hover:cursor-pointer z-20"
+            className="lg:text-4xl text-3xl hover:text-[#0ff0e59c] text-[#0ff0e579] hover:cursor-pointer z-20"
           />
         </a>
       </li>
       <li class="relative group">
         <label
         for="play"
-        class="absolute hidden group-hover:block text-xs -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-9 px-4 py-2"
+        class="absolute hidden group-hover:block text-md -right-5 bg-[#0ff0e544] text-cyan-300 rounded-md -top-11 px-4 py-2"
       >
         Mail
       </label>
         <a href="mailto:karthikeya.enge@hotmail.com" target="_blank">
           <FaEnvelope
-            className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer"
+            className="lg:text-4xl text-3xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer"
           />
         </a>
       </li>
@@ -108,7 +116,7 @@ import { Image } from "astro:assets";
     <Image
       src={bubble}
       alt="bub"
-      class="absolute h-[150px] w-auto lg:left-1/2 lg:top-1/2 rotate-60 z-0"
+      class="lg:absolute lg:block hidden h-[150px] w-auto lg:left-1/2 lg:top-1/2 rotate-60 z-0"
       format="avif"
     />
   </main>
