@@ -58,7 +58,7 @@ html {
 }
 
 .back {
-    background-image: url('/images/sa.avif');
+    background-image: url('/images/sa.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,7 +66,7 @@ html {
 }
 
 .hback {
-    background-image: url('/images/hbg.avif');
+    background-image: url('/images/hbg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

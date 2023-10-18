@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa6";
 
 import bubble from "../assets/bubble.png";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 ---
 
 <MainLayout title="KarthikeyaEnge">
@@ -100,24 +100,24 @@ import { Image } from "astro:assets";
         </a>
       </li>
     </ul>
-    <Image
+    <Picture
       src={bubble}
       alt="bub"
       class="absolute lg:h-[750px] h-[400px] w-auto lg:-left-1/4 -left-1/4 -top-32 flex-shrink-0 lg:-top-10 rotate-180 z-0 "
-      format="avif"
+      formats={["avif","webp"]}
     />
-    <Image
+    <Picture
       src={bubble}
       alt="bub"
-      class="absolute lg:h-[750px] h-[450px] w-auto lg:left-3/4 left-1/2 rotate-60 z-0 "
-      format="avif"
+      class="absolute lg:h-[750px] h-[450px] w-auto lg:left-3/4 left-1/2 lg:-top-1/4 top-20 rotate-60 z-0 "
+      formats={["avif","webp"]}
     />
 
-    <Image
+    <Picture
       src={bubble}
       alt="bub"
       class="lg:absolute lg:block hidden h-[150px] w-auto lg:left-1/2 lg:top-1/2 rotate-60 z-0"
-      format="avif"
+      formats={["avif","webp"]}
     />
   </main>
 </MainLayout>
