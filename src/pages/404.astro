@@ -1,0 +1,27 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { Picture } from "astro:assets";
+import { FaRocket } from "react-icons/fa6";
+---
+<MainLayout title="PAGE_NOT_FOUND">
+ 
+    <main class="bg-slate-950 flex flex-col justify-center items-center min-h-screen "> 
+        <h1
+      class="font-krona text-5xl text-center bg-gradient-to-b from-[#a5f5f1ae] via-[#0ff0e579] to-[#ffffff07] py-3 bg-clip-text text-transparent h-full z-10"
+
+      
+    >
+      Karthikeya Enge
+    </h1>     
+
+    <a href="/" class="z-10 flex flex-row justify-center items-center">
+        <button
+          class="font-krona lg:text-2xl text-xl py-2 px-3 bg-[#2dd7ce47] text-[#13dbd1d1] rounded-full ring-0 outline-none lg:mt-10 mt-3 hover:animate-none hover:shadow-2xl hover:shadow-[#61c7c285] z-10 flex justify-center items-center gap-2"
+        >
+        <FaRocket className="text-[#13dbd1d1] text-2xl" /> Go Home
+        </button>
+      </a>
+      <Picture src="/images/404.jpg" width="900" height="900" alt="404" formats={["avif","webp"]}/>
+    </main>
+
+</MainLayout>

@@ -1,6 +1,7 @@
 ---
 const { title } = Astro.props;
 import "../styles/global.css";
+import { ViewTransitions } from "astro:transitions";
 ---
 
 <html lang="en">
@@ -31,7 +32,9 @@ import "../styles/global.css";
   <meta name="twitter:image" content="https://raw.githubusercontent.com/KarthikeyaEnge/Memento_astro/main/public/images/icon.png">
 
     <title>{title}</title>
+    <ViewTransitions/>
   </head>
+ 
   <body class="overflow-y-scroll overflow-x-hidden scroll_bar">
     <slot />
   </body>
