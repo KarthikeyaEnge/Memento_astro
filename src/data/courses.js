@@ -16,7 +16,7 @@ const data = {
 
     {
       name: "Principals of UX/UI Design",
-      img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138753911?e=1700697600&v=beta&t=tdubJehhjtCbzaICaUOIqOe2sbECND7m6raJg8DBVuM",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/meta_logo.jpeg?token=GHSAT0AAAAAACGQZ3O25HR3IYMZFOQDV5FUZLA6J2Q",
       course_img:
         "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/Meta-Logo.png",
       iby: "Meta",
@@ -29,7 +29,7 @@ const data = {
     },
     {
       name: "MongoDB Node.js Developer Path",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFKe8PwqzyHyA/company-logo_200_200/0/1635171226731?e=1700697600&v=beta&t=0sxKc7Z_2HkaJu2VCavOvZR2CohQCLQ2mtBkuMt0i1s",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/mdb_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3XTLQRG455NSCYEJWZLA6KLA",
       course_img:
         "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/mongodb.png",
       iby: "MongoDB",
@@ -63,7 +63,7 @@ const data = {
     },
     {
       name: "Build and Secure Networks in Google Cloud",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -76,7 +76,7 @@ const data = {
     },
     {
       name: "Create and Manage Cloud Resources",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -89,7 +89,7 @@ const data = {
     },
     {
       name: "Deploy and Manage Cloud Environments with Google Cloud",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -102,7 +102,7 @@ const data = {
     },
     {
       name: "Deploy to Kubernetes in Google Cloud",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -115,7 +115,7 @@ const data = {
     },
     {
       name: "Perform Foundational Infrastructure Tasks in Google Cloud",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -128,7 +128,7 @@ const data = {
     },
     {
       name: "Set Up and Configure a Cloud Environment in Google Cloud",
-      img: "https://media.licdn.com/dms/image/C4D0BAQFQvhMNUtax7g/company-logo_200_200/0/1668405290120?e=1700697600&v=beta&t=uaz_-oVN6SYP_qxUnC25DjXQOPDCFxAt0ZEobmv1Mow",
+      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
