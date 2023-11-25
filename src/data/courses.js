@@ -16,7 +16,7 @@ const data = {
 
     {
       name: "Principals of UX/UI Design",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/meta_logo.jpeg?token=GHSAT0AAAAAACGQZ3O25HR3IYMZFOQDV5FUZLA6J2Q",
+      img: "/images/meta_logo.jpeg",
       course_img:
         "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/Meta-Logo.png",
       iby: "Meta",
@@ -29,7 +29,7 @@ const data = {
     },
     {
       name: "MongoDB Node.js Developer Path",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/mdb_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3XTLQRG455NSCYEJWZLA6KLA",
+      img: "/images/mdb_logo.jpeg",
       course_img:
         "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/mongodb.png",
       iby: "MongoDB",
@@ -51,9 +51,8 @@ const data = {
     },
     {
       name: "Foundations of Git ",
-      img: "https://media.licdn.com/dms/image/D560BAQH7kMFduqTX1Q/company-logo_200_200/0/1691785849994?e=1701302400&v=beta&t=nVLqL4Is-cb5TqfrzKCa46iCA9iHcLaKgyKMUVhBgEk",
-      course_img:
-        "https://media.licdn.com/dms/image/D5622AQFrEPgoyc_ffw/feedshare-shrink_1280/0/1692960574953?e=1695859200&v=beta&t=-N9YLZhobFz9RqnLU1z-AQrTAOvWm9SKjiz2Hh0Df74",
+      img: "/images/gitc.jpeg",
+      course_img: "/images/gitcor.jpeg",
       iby: "GitKraken",
       id: "2023",
       credentials: "https://learn.gitkraken.com/certificates/y7wvgzpw5s",
@@ -63,7 +62,7 @@ const data = {
     },
     {
       name: "Build and Secure Networks in Google Cloud",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
+      img: "/images/gc_logo.jpeg",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -76,7 +75,7 @@ const data = {
     },
     {
       name: "Create and Manage Cloud Resources",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
+      img: "/images/gc_logo.jpeg",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -89,7 +88,7 @@ const data = {
     },
     {
       name: "Deploy and Manage Cloud Environments with Google Cloud",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
+      img: "/images/gc_logo.jpeg",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -102,7 +101,7 @@ const data = {
     },
     {
       name: "Deploy to Kubernetes in Google Cloud",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
+      img: "/images/gc_logo.jpeg",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -115,7 +114,7 @@ const data = {
     },
     {
       name: "Perform Foundational Infrastructure Tasks in Google Cloud",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
+      img: "/images/gc_logo.jpeg",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
@@ -128,7 +127,7 @@ const data = {
     },
     {
       name: "Set Up and Configure a Cloud Environment in Google Cloud",
-      img: "https://raw.githubusercontent.com/KarthikeyaEnge/Req_data/main/gc_logo.jpeg?token=GHSAT0AAAAAACGQZ3O3TPCRXBYDW3625UAWZLA6LCQ",
+      img: "/images/gc_logo.jpeg",
       course_img:
         "https://www.freecodecamp.org/news/content/images/size/w2000/2020/10/gcp.png",
       iby: "Google Cloud",
