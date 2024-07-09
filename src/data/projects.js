@@ -28,6 +28,16 @@ const projects = {
       stack: ["ReactJS", "ViteJS", "TailwindCSS", "DaisyUI", "Chartjs"],
     },
     {
+      name: "BlueBorn",
+      img: "/images/blueborn.png",
+      id: "2023",
+      gitr: "https://github.com/KarthikeyaEnge/BlueBorn",
+      desc: `A minimalistic bluish dark theme for vscode`,
+      pro_link:
+        "https://marketplace.visualstudio.com/items?itemName=KarthikeyaEnge.blueborn",
+      stack: ["VSCode", "CSS", "JSON"],
+    },
+    {
       name: " ATTENDANCE MANAGER",
       img: "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/am.png",
       id: "2023",
